@@ -37,8 +37,25 @@ The designs were created to the following widths:
 *{
     margin:0;
     padding: 0;
-    box-sizng: border-box;
+   box-sizing: border-box;
 }
 body{
-    background-color: 
+    background-image: url('images/bg-top.svg');
+    background-repeat: no-repeat;
+}
+.container{
+    text-align: center;
+}
+.mid-container{
+    width: 80%;
+    max-width: 1440px;
+    height: 500px;
+    margin: 50px auto;
+    background:hsl(240, 78%, 98%) ;
+    display: flex;
+    width: 33%;
+    padding: 5em;
+}
+.col{
+    margin: 3em;
 }
