@@ -70,7 +70,7 @@ li{
   margin: 10px auto;
   background-color: white;
   width: 70%;
-  height: 100vh;
+  height: 300px;
   justify-content:center;
 }
 section a{
@@ -82,7 +82,7 @@ section a{
     color: #F6F6FE;
 }
 .row{
-  height: 100vh;
+  height: 300px;
   width: 33.33%;
   background-color: #fff;
   color: #494C5F;
@@ -91,9 +91,9 @@ section a{
 .mid{
   height: 300px;
   background: rgb(163,168,240);
-    color: #F6F6FE;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  color: #F6F6FE;
+  padding-top: 40px;
+  padding-bottom: 40px;
   margin-top:-20px;
   border-radius: 20px;
   }
