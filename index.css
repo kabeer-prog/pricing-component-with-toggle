@@ -37,13 +37,13 @@ The designs were created to the following widths:
 *{
     margin:0;
     padding: 0;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
     background:hsl(240, 78%, 98%);
     text-align: center;
-  font-size: 15px;
+    font-size: 15px;
     
 }
 header{
