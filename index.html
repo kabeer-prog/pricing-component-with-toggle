@@ -29,15 +29,21 @@
   
    <body>
     <header>
-      <h1 >Our Pricing</h1>
-      <div class="header" >
-      <span>Annually</span>
-      <input type="checkbox" alt="">
-      <span>Monthly</span>
+      <h1>Our Pricing</h1>
+      <div class="header">
+        <span>Annual</span>
+          <!-- Rounded switch -->
+      <label class="switch">
+        <input type="checkbox" id="clickSwitch" onclick="changePrice()">
+        <span class="slider round"></span>
+      </label>
+          
+        <span>Monthly</span>
+          </div>
     </div>
     </header>
     <section class="container">
-      <section class="row">
+      <section class="col">
         <h3>Professional</h3>
           <h2 id="monthly"> &dollar;24.99 </h2>
           <h2 id="annually">&dollar;249.99</h2>
@@ -49,7 +55,7 @@
         <a href="#" alt="learn-button">Learn More </a>
                
       </section>
-      <section class="row mid"> 
+      <section class="col mid"> 
         <h3>Professional</h3>
         <h2 id="monthly"> &dollar;24.99</h2>
         <h2 id="annually">&dollar;249.99</h2>
@@ -62,7 +68,7 @@
           <a href="#" alt="learn-button">Learn More </a>
           
       </section>
-      <section class="row">
+      <section class="col">
         <h3> Master</h3>
         <h2 id="monthly"> &dollar;39.99</h2>
         <h2 id="annually">&dollar;399.99</h2>
@@ -86,11 +92,12 @@
   
 
   
-  
+  <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Kabeer Akanni</a>.
   </div>
-  <script class="index js"></script>
+</footer>
+  <script src="index.js"></script>
 </body>
 </html>
