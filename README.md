@@ -1,6 +1,8 @@
 # pricing-component-with-toggle
 FrontEnd Mentor Pricing Component with Toggle
-LIVE URL: 
+
+
+LIVE URL: https://gallant-meninsky-413e6b.netlify.app/
 
 
 <h1 align="center">Hi 👋, I'm kabeer</h1>
