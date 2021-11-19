@@ -1,6 +1,8 @@
 # pricing-component-with-toggle
 FrontEnd Mentor Pricing Component with Toggle
-LIVE URL: 
+
+
+LIVE URL: https://gallant-meninsky-413e6b.netlify.app/
 
 
 <h1 align="center">Hi 👋, I'm kabeer</h1>
@@ -10,7 +12,7 @@ LIVE URL:
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kabeer-prog" alt="kabeer-prog" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/kabeerakanni" target="blank"><img src="https://img.shields.io/twitter/follow/kabeerakanni?logo=twitter&style=for-the-badge" alt="kabeerakanni" /></a> </p>
+<p align="left"> <a href="https://twitter.com/kabeerakanni" target="blank"><img src="https://img.shields.io/twitter/follow/akannikabeer?logo=twitter&style=for-the-badge" alt="kabeerakanni" /></a> </p>
 
 - 🌱 I’m currently learning **REACT**
 
