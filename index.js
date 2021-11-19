@@ -39,6 +39,8 @@ const checkBox = document.querySelector('#clickSwitch')
 
 function change(){
  
+    if  (checkBox == true){
     document.querySelectorAll("#annually").forEach(item => item.style.display = "block")}
     document.querySelectorAll("#monthly").forEach(item => item.style.display = "none")
+}
   }
