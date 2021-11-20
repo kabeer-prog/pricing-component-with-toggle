@@ -85,6 +85,7 @@ header{
   background-color: #2196F3;
   -webkit-transition: .4s;
   transition: .4s;
+
 }
 .slider:before {
   position: absolute;
@@ -111,6 +112,7 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .round {
   border-radius: 34px;
+  margin: 2px;
 }
 
 .slider.round:before {
@@ -199,11 +201,8 @@ section a{
       margin-top: 10px;
     }
     .attribution{
-      text-align:center;
-      top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+     
+      display: none;
   }
   
   }
