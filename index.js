@@ -1,46 +1,40 @@
+// Write a function to change the prices displayed when the checkbox through the toggle switch is triggered
 
-// let checking = document.getElementsByClassName("")
+//Checkbox has a method to know if checked or not("checked" and "unchecked")
 
-// function changePrice(){
-//   let lew = document.getElementById('#annually')
+//Best to use same class name for all the two different prices, monthly and annually
 
-//   lew.style.display ="none"
-// }
+// Get the DOM to be able to manipulate the element through queryselectorAll which create a nodelist
 
-// const checkBox = document.querySelector('#clickSwitch');
-// const monthly = document.querySelectorAll('.annually')
+// With a Nodelist, each of the elements containing same class is worked on
 
-// checkBox.addEventListener('click', function(){
-  
-// alert ('it got clicked')
-// document.getElementById("annually").style.display = "block";
-// document.getElementById("monthly").style.display = "none";
+//The challenge can be solved using a for loop or the forEach method 
 
-// document.querySelectorAll('.annually').forEach.style.display = "block"
-// document.querySelectorAll('.monthly').forEach.style.display = "none"
-// }
-// );
-
-// document.querySelector('#clickSwitch').addEventListener('click',change)
-// function change(){
-//     document.querySelector('.monthly').style.display = 'none'
-    
-// }
-// function myFunc() {
-//     var para = document.getElementById("p");
-//     para.classList.toggle("paragraphClass");
-// }
-
-// document.querySelectorAll('.classname').forEach(function(el) {
-//     el.style.display = 'none';
-//  });
+// When the check box is clicked i.e triggered, make the display for monthly to be none while that of the annually to be block
 
 const checkBox = document.querySelector('#clickSwitch')
+const text1 = document.querySelectorAll(".monthly")
+const text2 = document.querySelectorAll(".annually")
 
 function change(){
  
-    if  (checkBox == true){
-    document.querySelectorAll("#annually").forEach(item => item.style.display = "block")}
-    document.querySelectorAll("#monthly").forEach(item => item.style.display = "none")
+//     for(let i= 0; i < text1.length; i++){
+
+//       if (checkBox.checked == true){
+//     text1[i].style.display = "none"
+//     text2[i].style.display = "block"
+// }else  {
+//   text1[i].style.display = "block"
+//     text2[i].style.display = "none"
+// }
+//   }
+
+ if(checkBox.checked ==true){
+    text1.forEach(item => item.style.display ="none")
+    text2.forEach(item => item.style.display = "block")
+ }else{
+  text1.forEach(item => item.style.display ="block")
+  text2.forEach(item => item.style.display = "none")
+ }
 }
-  }
+  

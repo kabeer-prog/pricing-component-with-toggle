@@ -119,7 +119,7 @@ input:checked + .slider:before {
 
 /*****************************************END of slider toggle**************************************/
 
-#annually{
+.annually{
   display: none;
 }
 h1{
