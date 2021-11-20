@@ -31,11 +31,13 @@ function change(){
 
 //Check if the checkbox is triggered, perform the actions on the display else perform another action
  if(checkBox.checked ==true){
-    text1.forEach(item => item.style.display ="none")
-    text2.forEach(item => item.style.display = "block")
- }else{
   text1.forEach(item => item.style.display ="block")
   text2.forEach(item => item.style.display = "none")
+
+    
+ }else  {
+  text1.forEach(item => item.style.display ="none")
+    text2.forEach(item => item.style.display = "block")
  }
 }
   
