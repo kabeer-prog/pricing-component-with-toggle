@@ -41,8 +41,11 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#Pricing-COmponent With a Toggle Button)
+  - [The challenge](#Pricing-Component With a Toggle Button)
   - [Screenshot](#screenshot)
+
+![image](https://user-images.githubusercontent.com/77249754/142731968-c1c7297c-4515-4c5e-a58f-6614775540a6.png)
+
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
