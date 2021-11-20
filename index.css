@@ -65,6 +65,7 @@ header{
 .switch {
   position: relative;
   display: inline-block;
+  
   width: 60px;
   height: 34px;
 }
@@ -112,7 +113,7 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .round {
   border-radius: 34px;
-  margin: 2px;
+  
 }
 
 .slider.round:before {
@@ -142,7 +143,7 @@ li{
   justify-content:center;
 }
 section a{
-  padding: 10px;
+  padding: 10px 20px;
     width: 100%;
     border-radius: 10px;
     background: rgb(163,168,240);
@@ -183,6 +184,7 @@ section a{
       display: block;
       flex-direction: column;
       width: 70%;
+      border-radius: 10px;
     }
     .col{
       width: 100%;
