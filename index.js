@@ -13,31 +13,31 @@
 // When the check box is clicked i.e triggered, make the display for monthly to be none while that of the annually to be block
 
 const checkBox = document.querySelector('#clickSwitch')
-const text1 = document.querySelectorAll(".monthly")
-const text2 = document.querySelectorAll(".annually")
+const content1 = document.querySelectorAll(".monthly")
+const content2 = document.querySelectorAll(".annually")
 
 function change(){
  
 //     for(let i= 0; i < text1.length; i++){
 
 //       if (checkBox.checked == true){
-//     text1[i].style.display = "none"
-//     text2[i].style.display = "block"
+//     content1[i].style.display = "none"
+//     content2[i].style.display = "block"
 // }else  {
-//   text1[i].style.display = "block"
-//     text2[i].style.display = "none"
+//   content1[i].style.display = "block"
+//     content2[i].style.display = "none"
 // }
 //   }
 
 //Check if the checkbox is triggered, perform the actions on the display else perform another action
  if(checkBox.checked ==true){
-  text1.forEach(item => item.style.display ="block")
-  text2.forEach(item => item.style.display = "none")
+  content1.forEach(item => item.style.display ="block")
+  content2.forEach(item => item.style.display = "none")
 
     
  }else  {
-  text1.forEach(item => item.style.display ="none")
-    text2.forEach(item => item.style.display = "block")
+  content1.forEach(item => item.style.display ="none")
+    contentt2.forEach(item => item.style.display = "block")
  }
 }
   
