@@ -37,7 +37,7 @@ function change(){
     
  }else  {
   content1.forEach(item => item.style.display ="none")
-    contentt2.forEach(item => item.style.display = "block")
+    content2.forEach(item => item.style.display = "block")
  }
 }
   
