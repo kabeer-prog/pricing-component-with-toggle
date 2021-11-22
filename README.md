@@ -46,9 +46,9 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ![image](https://user-images.githubusercontent.com/77249754/142731968-c1c7297c-4515-4c5e-a58f-6614775540a6.png)
 
-  - [Links](#links)https://gallant-meninsky-413e6b.netlify.app/
+  - [Links](#links)  https://gallant-meninsky-413e6b.netlify.app/
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [Built with](#html css js)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
