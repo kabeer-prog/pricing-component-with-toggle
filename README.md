@@ -81,7 +81,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-pricing-component-with-a-toggle-switch-obKcwz9hy)
 - Live Site URL: [Add live site URL here](https://gallant-meninsky-413e6b.netlify.app/)
 
 ## My process
