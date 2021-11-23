@@ -51,6 +51,7 @@ body{
 
     /* max-height:100vh; */
     /* height: 100vh; */
+    height: auto;
 }
 
 /************************HEADER************************************************************/
@@ -93,6 +94,7 @@ span{padding: 0.4rem 1rem;
   right: 0;
   bottom: 0;
   background-color: #ccc;
+  background:linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -137,7 +139,7 @@ input:checked + .slider:before {
   padding:5px;
 }
 h2{
-  font-size: 2em;
+  font-size: 3em;
 }
 ul{
   padding:30px 10px;
@@ -176,13 +178,13 @@ section a{
   color:hsl(233, 13%, 49%)
 }
 .col a{
-  background:#fff;
+  background: linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
   border: 1px solid hsl(233, 13%, 49%);
   /* border-radius: 10px solid hsl(233, 13%, 49%); */
   color:hsl(233, 13%, 49%)
 }
 a.btn {
-  padding: 0.75em 2em;
+  padding: 0.75em 3em;
 }
 .mid{
    height: 55vh;
@@ -192,9 +194,9 @@ a.btn {
   
 }
 .mid a{
-  color:#fff;
+  color: linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
   border: .3px solid #fff;
-  background: linear-gradient(90deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%);
+  background: #fff;
 }
 .attribution{
   text-align:center;
