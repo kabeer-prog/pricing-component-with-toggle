@@ -93,7 +93,7 @@ span{padding: 0.4rem 1rem;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  
   background:linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
   -webkit-transition: .4s;
   transition: .4s;
@@ -139,7 +139,7 @@ input:checked + .slider:before {
   padding:5px;
 }
 h2{
-  font-size: 3em;
+  font-size: 2.5em;
 }
 ul{
   padding:30px 10px;
@@ -159,13 +159,13 @@ li{
  .monthly{
   display: none;
 }
-section a{
+section .btn{
   
   text-decoration: none;
   text-transform: uppercase;
   padding: 10px 50px;
   border-radius: 10px;
-  width: 80vw;
+ display: inline-block;
  
 }
 
@@ -177,15 +177,15 @@ section a{
   border-radius: 10px;
   color:hsl(233, 13%, 49%)
 }
-.col a{
+.col .btn{
   background: linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
   border: 1px solid hsl(233, 13%, 49%);
   /* border-radius: 10px solid hsl(233, 13%, 49%); */
   color:hsl(233, 13%, 49%)
 }
-a.btn {
+/* .btn {
   padding: 0.75em 3em;
-}
+} */
 .mid{
    height: 55vh;
    background: linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
@@ -193,14 +193,25 @@ a.btn {
    margin-top:-10px; 
   
 }
-.mid a{
+.mid .btn{
   color: linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
   border: .3px solid #fff;
   background: #fff;
 }
+button{
+  padding: 0.75em 5em;
+}
+
 .attribution{
   text-align:center;
   text-decoration: none;
+}
+
+
+@media (max-width: 720px){
+  .container{
+      width: 100%;
+  }
 }
 
 @media (max-width: 600px){
