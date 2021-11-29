@@ -49,9 +49,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
 
-    /* max-height:100vh; */
-    /* height: 100vh; */
-    height: auto;
+    
+    /* height: auto; */
 }
 
 /************************HEADER************************************************************/
